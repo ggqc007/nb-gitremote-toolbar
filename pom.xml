@@ -3,11 +3,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>de.markiewb.netbeans.plugins</groupId>
-    <artifactId>git.toolbar</artifactId>
-    <version>1.1.1-SNAPSHOT</version>
+    <artifactId>gitremote.toolbar</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
     <packaging>nbm</packaging>
 
-    <name>Git toolbar</name>
+    <name>Git Remote toolbar</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -42,11 +42,11 @@
                 <extensions>true</extensions>
                 <configuration>
                     <!-- keep it for backwards compatibility to previous versions-->
-                    <codeNameBase>git.toolbar</codeNameBase>
+                    <codeNameBase>gitremote.toolbar</codeNameBase>
                     <licenseFile>LICENSE-2.0.txt</licenseFile>
                     <author>Benno Markiewicz (benno.markiewicz@googlemail.com)</author>
-                    <homePageUrl>https://github.com/markiewb/nb-git-toolbar</homePageUrl>
-                    <keystore>nbproject/private/keystore</keystore>
+                    <homePageUrl>https://github.com/markiewb/nb-gitremote-toolbar</homePageUrl>
+                    <keystore>../keystore</keystore>
                     <licenseName>Apache 2.0</licenseName>
                 </configuration>
             </plugin>
@@ -73,15 +73,12 @@
             </plugin>
         </plugins>
     </build>
-    <description>This plugins adds a toolbar for common GIT actions
-&lt;p&gt;
-&lt;img src="https://raw.github.com/markiewb/nb-git-toolbar/master/doc/screenshot1.gif"/&gt;
-&lt;/p&gt;
+    <description>This plugins adds a toolbar for common Git Remote actions. Useful for remote C/C++ projects.
 
 &lt;h2&gt;Updates&lt;/h2&gt;
-&lt;h3&gt;1.1.0:&lt;/h3&gt;
+&lt;h3&gt;1.0.0:&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;[&lt;a href="https://github.com/markiewb/nb-git-toolbar/issues/1"&gt;Issue 1&lt;/a&gt;]: Add pull actions to toolbar&lt;/li&gt;
+&lt;li&gt;initial version - based on https://github.com/markiewb/nb-git-toolbar/issues/6&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Legal disclaimer: Code is licensed under Apache 2.0. &lt;/p&gt;
