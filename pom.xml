@@ -2,7 +2,7 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>de.markiewb.netbeans.plugins</groupId>
+    <groupId>ca.ggqc007.netbeans.plugins</groupId>
     <artifactId>gitremote.toolbar</artifactId>
     <version>1.0.1-SNAPSHOT</version>
     <packaging>nbm</packaging>
@@ -46,7 +46,8 @@
                     <licenseFile>LICENSE-2.0.txt</licenseFile>
                     <author>ggqc007, markiewb</author>
                     <homePageUrl>https://github.com/ggqc007/nb-gitremote-toolbar</homePageUrl>
-                    <keystore>../keystore</keystore>
+                    <keystore>private/keystore</keystore>
+                    <keystorealias>ggqc007</keystorealias>
                     <licenseName>Apache 2.0</licenseName>
                 </configuration>
             </plugin>
@@ -76,7 +77,7 @@
     <description>This plugins adds a toolbar for common Git Remote actions. Useful for remote C/C++ projects.
 
 &lt;h2&gt;Updates&lt;/h2&gt;
-&lt;h3&gt;1.0.0:&lt;/h3&gt;
+&lt;h3&gt;1.0.1:&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;initial version - based on https://github.com/markiewb/nb-git-toolbar/issues/6&lt;/li&gt;
 &lt;/ul&gt;
