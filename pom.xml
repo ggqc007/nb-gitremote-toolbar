@@ -4,7 +4,7 @@
 
     <groupId>de.markiewb.netbeans.plugins</groupId>
     <artifactId>gitremote.toolbar</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.1-SNAPSHOT</version>
     <packaging>nbm</packaging>
 
     <name>Git Remote toolbar</name>
@@ -44,8 +44,8 @@
                     <!-- keep it for backwards compatibility to previous versions-->
                     <codeNameBase>gitremote.toolbar</codeNameBase>
                     <licenseFile>LICENSE-2.0.txt</licenseFile>
-                    <author>Benno Markiewicz (benno.markiewicz@googlemail.com)</author>
-                    <homePageUrl>https://github.com/markiewb/nb-gitremote-toolbar</homePageUrl>
+                    <author>ggqc007, markiewb</author>
+                    <homePageUrl>https://github.com/ggqc007/nb-gitremote-toolbar</homePageUrl>
                     <keystore>../keystore</keystore>
                     <licenseName>Apache 2.0</licenseName>
                 </configuration>
